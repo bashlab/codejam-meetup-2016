@@ -3,8 +3,8 @@
 ## Ad-hocs
 
 + [X] UVa 100 - The 3n + 1 problem (follow the problem description, note the term ‘between’!)
-+ [ ] UVa 272 - TEX Quotes (simply replace all double quotes to TEX() style quotes)
-+ [ ] UVa 394 - Mapmaker (array manipulation)
++ [X] UVa 272 - TEX Quotes (simply replace all double quotes to TEX() style quotes)
++ [X] UVa 394 - Mapmaker (array manipulation)
 + [ ] UVa 483 - Word Scramble (read char by char from left to right)
 + [ ] UVa 573 - The Snail (be careful of boundary cases!)
 + [ ] UVa 661 - Blowing Fuses (simulation)
