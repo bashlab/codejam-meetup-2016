@@ -35,10 +35,6 @@ int main()
 
         for(int i=0; i<N; ++i)
         {
-            for(int j=0; j<N; ++j)
-            {
-                dist[i][j] = pow(X[i]-X[j],2) + pow(Y[i]-Y[j],2);        
-            }
             sort(dist[i], dist[i] + N);
             rep = 1;
             prev = 0;
