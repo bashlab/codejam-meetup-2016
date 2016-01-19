@@ -10,27 +10,21 @@ int dist[2000][2000];
 
 int main()
 {
-    int T, N;
-    int *X, *Y; 
+    int T, N, prev, rep, *X, *Y, k;
     long long counter; 
-    int k;
     scanf("%d", &T);
     for(int t=1; t<=T; ++t)
     {
-        // restore the counter
         counter = 0;
-        // start
         scanf("%d", &N);
         X = new int[N];
         Y = new int[N];
         
-        // create array to store the 
-        int c = 0;
         for(int i=0; i<N; ++i)
         {
             scanf("%d %d", &X[i], &Y[i]); 
         }
-/*
+
         for(int i=0; i<N; ++i)
         {
             for(int j=0; j<N; ++j)
@@ -38,8 +32,7 @@ int main()
                 dist[i][j] = pow(X[i]-X[j],2) + pow(Y[i]-Y[j],2);        
             }
         }
-*/
-        int prev, rep;
+
         for(int i=0; i<N; ++i)
         {
             for(int j=0; j<N; ++j)
